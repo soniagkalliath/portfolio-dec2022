@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Chivo+Mono:wght@300&family=Cormorant+Garamond:wght@500&family=Dancing+Script:wght@600&family=Mohave&family=Moon+Dance&family=Oleo+Script+Swash+Caps:wght@700&family=Poppins:wght@200&family=Rubik+Gemstones&family=Solway&display=swap');
+
+body{
+    text-align: center;
+    margin: 0px;
+}
+.menu{
+    background-color: bisque;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin-top: 0px;
+    z-index: 10;
+}
+
+.links{
+    display: inline;
+    font-size: 30px;
+    margin-left:60px ;
+}
+
+.nav{
+    text-decoration: none;
+    color: blue;
+}
+
+/* pseudo class - selector:pseudo-class{property:value;} */
+.nav:hover{
+    font-size: 40px;
+    color: red;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+#profile{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#title{
+    font-family: 'Solway', serif;
+    margin-top: 0px;
+    font-size: 60px;
+}
+h3{
+    font-family: 'Rubik Gemstones', cursive;
+}
+#home{
+    background-image: linear-gradient(to bottom right,aqua,yellow,aquamarine);
+}
